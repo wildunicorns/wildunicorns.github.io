@@ -8,14 +8,28 @@ html, body {
     width: 100%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: #FF99FF;
-    padding: 20px;
+    padding: 1em;
+}
+
+header > img {
+    height: 4em;
+}
+
+header > h1 {
+    font-size: 4em;
+    padding-left: .5em;
 }
 
 #body {
     background-color:#FFDDFF;
-    height: 91vh;
+    flex-grow: 1;
 }
 
 #attempts {
@@ -27,6 +41,14 @@ header {
 
 .attempt {
     padding: 10px;
+}
+
+.attempt > h3 {
+    font-size: 2em;
+}
+
+.attempt > strong, .attempt > p {
+    font-size: 1em;
 }
 
 .row {
@@ -44,3 +66,14 @@ header {
     right: 10px;
     bottom: 10px;
 }
+
+@media only screen and (max-width: 500px) {
+    .attempt > h3 {
+      font-size: 6em;
+    }
+
+    .attempt > strong, .attempt > p {
+        font-size: 3em;
+    }
+    
+  }
