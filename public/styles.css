@@ -6,7 +6,6 @@
 html, body {
     height: 100%;
     width: 100%;
-
 }
 
 header {
@@ -16,7 +15,7 @@ header {
 
 #body {
     background-color:#FFDDFF;
-    height: 90vh;
+    height: 91vh;
 }
 
 #attempts {
@@ -38,4 +37,10 @@ header {
 .column {
     display: flex;
     flex-direction: column;
+}
+
+#reference {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
