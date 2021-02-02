@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+}
+
+header {
+    background-color: #FF99FF;
+    padding: 20px;
+}
+
+#body {
+    background-color:#FFDDFF;
+    height: 90vh;
+}
+
+#attempts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.attempt {
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row; 
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
